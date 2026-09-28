@@ -1,0 +1,35 @@
+{
+  "name": "itsHimReaper",
+  "description": "Immersive Roblox environments, worlds, and development by Reaper.",
+  "bio": "I’m a Roblox developer who loves turning a blank baseplate into somewhere worth spending time. From early blockout to the last lighting pass, I care about how every part of a world feels to explore.",
+  "email": "",
+  "socials": [
+    {
+      "label": "My discord link",
+      "url": "https://discord.com/channels/@me/1270821107825639444",
+      "icon": "discord"
+    }
+  ],
+  "projectDetails": {
+    "Images/FNaF build.png": {
+      "title": "FNaF build",
+      "description": "One of my own projects."
+    },
+    "Images/Elevator.png": {
+      "title": "Elevator",
+      "description": "Elevator for a game."
+    },
+    "Images/RoPoint Lab.png": {
+      "title": "RoPoint Lab",
+      "description": "The lobby for RoPoint."
+    },
+    "Images/FFR main.png": {
+      "title": "My FFR game main room",
+      "description": "FFR (Freddy Fazbears roleplay)"
+    },
+    "Videos/Castle.mp4": {
+      "title": "Metal Castle",
+      "description": "This was made within 2 weeks of development for a game"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121812">
+    <meta name="description" content="Roblox builds, environments, and development by Reaper.">
+    <title>Reaper | Roblox World Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Reaper home">R<span>.</span></a>
+      <span class="header-caption"><span class="header-username" id="header-username">Reaper</span><span> · INDEPENDENT ROBLOX DEVELOPER</span></span>
+      <a class="header-link" href="#contact">LET'S TALK <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" id="hero-image" alt="A look inside one of Reaper's Roblox builds" hidden>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-particles" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+          <h1 id="hero-title">WORLD<br>BUILDER<span class="hero-period">.</span></h1>
+          <div class="hero-bottom">
+            <p class="hero-description">I build immersive Roblox builds with atmosphere, detail, and a life of their own.</p>
+            <a class="circle-link" href="#work" aria-label="Explore selected work"><span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <span class="hero-index" aria-hidden="true">01 / THE PORTFOLIO</span>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-topline">
+          <span class="eyebrow">A SELECTION OF BUILDS</span>
+          <span class="work-count" id="work-count">LOADING PROJECTS</span>
+        </div>
+        <div class="work-heading-row">
+          <h2 id="work-title">Made to be <span>explored.</span></h2>
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-button" type="button" data-filter="image" aria-pressed="false">Builds</button>
+            <button class="filter-button" type="button" data-filter="video" aria-pressed="false">In motion</button>
+          </div>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>No projects in this collection yet.</p>
+      </section>
+
+      <section class="work-section gui-section" id="gui" aria-labelledby="gui-title">
+        <div class="section-topline">
+          <span class="eyebrow">INTERFACE DESIGN</span>
+          <span class="work-count" id="gui-count">LOADING GUI</span>
+        </div>
+        <div class="work-heading-row">
+          <h2 id="gui-title">Game <span>UI.</span></h2>
+        </div>
+        <div class="project-grid" id="gui-grid" aria-live="polite"></div>
+        <p class="empty-state" id="gui-empty-state">None</p>
+      </section>
+
+      <section class="about-section" aria-labelledby="about-title">
+        <span class="eyebrow">A LITTLE ABOUT ME</span>
+        <div class="about-copy">
+          <h2 id="about-title">Built with intent.<br><span>Made for players.</span></h2>
+          <p>I’m a Roblox developer who loves turning a blank baseplate into a build worth spending time. From early blockout to the last lighting pass, I care about how every part of a world feels to explore.</p>
+        </div>
+        <div class="about-stamp" aria-hidden="true"><span>ROBLOX</span><span>STUDIO</span><span>✳</span></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <span class="eyebrow">HAVE A BUILD IN MIND?</span>
+          <h2 id="contact-title">Let's make<br>something <span>real.</span></h2>
+        </div>
+        <div class="contact-action" id="contact-action"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-mark" href="#home" aria-label="Back to top">R<span>.</span></a>
+      <span> BUILT · ROBLOX STUDIO</span>
+      <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <dialog class="media-dialog" id="media-dialog" aria-label="Project preview">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close preview"><span aria-hidden="true">×</span></button>
+      <div class="dialog-content" id="dialog-content"></div>
+      <p class="dialog-caption" id="dialog-caption"></p>
+    </dialog>
+  </body>
+</html>

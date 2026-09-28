@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "path": "Images/Elevator.png",
+      "type": "image",
+      "title": "Elevator",
+      "description": "Elevator for a game."
+    },
+    {
+      "path": "Images/FFR main.png",
+      "type": "image",
+      "title": "My FFR game main room",
+      "description": "FFR (Freddy Fazbears roleplay)"
+    },
+    {
+      "path": "Images/FNaF build.png",
+      "type": "image",
+      "title": "FNaF build",
+      "description": "One of my own projects."
+    },
+    {
+      "path": "Images/RoPoint Lab.png",
+      "type": "image",
+      "title": "RoPoint Lab",
+      "description": "The lobby for RoPoint."
+    },
+    {
+      "path": "Videos/Castle.mp4",
+      "type": "video",
+      "title": "Metal Castle",
+      "description": "This was made within 2 weeks of development for a game"
+    }
+  ],
+  "gui": []
+}
