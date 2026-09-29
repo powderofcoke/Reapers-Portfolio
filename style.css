@@ -530,6 +530,34 @@ a:focus-visible {
   font-size: 19px;
 }
 
+.payment-notice {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 49px 10% 52px;
+  border-top: 1px solid rgba(196, 243, 107, .25);
+  border-bottom: 1px solid rgba(196, 243, 107, .25);
+  background: #1b241a;
+  color: var(--paper);
+}
+
+.payment-notice .eyebrow {
+  padding-top: 7px;
+  color: var(--green);
+}
+
+.payment-notice p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--green);
+  font-family: var(--display);
+  font-size: clamp(36px, 4.1vw, 68px);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: .95;
+  text-wrap: balance;
+}
+
 .contact-section {
   display: flex;
   align-items: flex-end;
@@ -834,6 +862,12 @@ a:focus-visible {
     bottom: 37px;
   }
 
+  .payment-notice {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 54px 7% 58px;
+  }
+
   .contact-section {
     align-items: flex-start;
     flex-direction: column;
@@ -889,6 +923,10 @@ a:focus-visible {
 
   .contact-section h2 {
     font-size: 80px;
+  }
+
+  .payment-notice p {
+    font-size: 46px;
   }
 
   .social-link.discord-link {
