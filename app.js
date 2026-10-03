@@ -1,6 +1,7 @@
 const projectGrid = document.querySelector('#project-grid');
 const emptyState = document.querySelector('#empty-state');
 const workCount = document.querySelector('#work-count');
+const guiSection = document.querySelector('#gui');
 const guiGrid = document.querySelector('#gui-grid');
 const guiEmptyState = document.querySelector('#gui-empty-state');
 const guiCount = document.querySelector('#gui-count');
@@ -157,6 +158,7 @@ async function loadPortfolio() {
   const projects = mediaIndex.projects || [];
   const gui = mediaIndex.gui || [];
   const images = projects.filter(project => project.type === 'image');
+  guiSection.hidden = gui.length === 0;
 
   document.querySelector('#header-username').textContent = config.name;
   document.querySelector('.about-copy > p').textContent = config.bio;
@@ -170,13 +172,13 @@ async function loadPortfolio() {
   workCount.textContent = `${String(projects.length).padStart(2, '0')} PROJECT${projects.length === 1 ? '' : 'S'}`;
   emptyState.hidden = projects.length > 0;
   guiGrid.replaceChildren(...gui.map(makeProjectCard));
-  guiCount.textContent = `${String(gui.length).padStart(2, '0')} GUI ITEM${gui.length === 1 ? '' : 'S'}`;
+  guiCount.textContent = `${String(gui.length).padStart(2, '0')} INTERFACE PROJECT${gui.length === 1 ? '' : 'S'}`;
   guiEmptyState.hidden = gui.length > 0;
 
-  document.title = `${config.name} | Roblox World Builder`;
+  document.title = `${config.name} | Roblox Environment Design`;
   document.querySelector('meta[name="description"]').content = config.description;
 
-  const emailLink = makeSafeLink('GET IN TOUCH ↗', config.email ? `mailto:${config.email}` : '', 'contact-link');
+  const emailLink = makeSafeLink('PROJECT INQUIRY ↗', config.email ? `mailto:${config.email}` : '', 'contact-link');
   const socials = (config.socials || [])
     .map(makeSocialLink)
     .filter(Boolean);
@@ -217,7 +219,7 @@ loadPortfolio().catch(error => {
   workCount.textContent = 'PROJECTS UNAVAILABLE';
   const notice = document.createElement('p');
   notice.className = 'js-notice';
-  notice.textContent = `${error.message} In GitHub Pages, the generator runs automatically on deployment.`;
+  notice.textContent = 'The project gallery is temporarily unavailable. Please check back shortly.';
   document.querySelector('.work-section').append(notice);
   console.error(error);
 });

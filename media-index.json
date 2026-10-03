@@ -19,6 +19,12 @@
       "description": "One of my own projects."
     },
     {
+      "path": "Images/Lowpolytrack.png",
+      "type": "image",
+      "title": "Low Poly Stud track",
+      "description": "A Low Poly Stud track for a game."
+    },
+    {
       "path": "Images/RoPoint Lab.png",
       "type": "image",
       "title": "RoPoint Lab",
