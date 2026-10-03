@@ -158,7 +158,6 @@ async function loadPortfolio() {
   const gui = mediaIndex.gui || [];
   const images = projects.filter(project => project.type === 'image');
 
-  document.querySelector('.wordmark').firstChild.textContent = `${config.name.trim().charAt(0).toUpperCase() || 'R'}`;
   document.querySelector('#header-username').textContent = config.name;
   document.querySelector('.about-copy > p').textContent = config.bio;
 
