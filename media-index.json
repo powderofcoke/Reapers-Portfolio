@@ -4,37 +4,37 @@
       "path": "Images/Elevator.png",
       "type": "image",
       "title": "Elevator",
-      "description": "Elevator for a game."
+      "description": "An elevator environment designed for an in-game transition."
     },
     {
       "path": "Images/FFR main.png",
       "type": "image",
-      "title": "My FFR game main room",
-      "description": "FFR (Freddy Fazbears roleplay)"
+      "title": "Freddy Fazbear’s Roleplay | Main Environment",
+      "description": "The main environment for Freddy Fazbear’s Roleplay (FFR)."
     },
     {
       "path": "Images/FNaF build.png",
       "type": "image",
-      "title": "FNaF build",
-      "description": "One of my own projects."
+      "title": "FNaF Roleplay Environment",
+      "description": "A themed environment created for a Five Nights at Freddy’s roleplay experience."
     },
     {
       "path": "Images/Lowpolytrack.png",
       "type": "image",
-      "title": "Low Poly Stud track",
-      "description": "A Low Poly Stud track for a game."
+      "title": "Low-Poly Stud Track",
+      "description": "A stylized stud-themed racing environment developed for a Roblox game."
     },
     {
       "path": "Images/RoPoint Lab.png",
       "type": "image",
       "title": "RoPoint Lab",
-      "description": "The lobby for RoPoint."
+      "description": "A central lobby environment developed for RoPoint."
     },
     {
       "path": "Videos/Castle.mp4",
       "type": "video",
       "title": "Metal Castle",
-      "description": "This was made within 2 weeks of development for a game"
+      "description": "A metal castle environment developed over a two-week production period."
     }
   ],
   "gui": []

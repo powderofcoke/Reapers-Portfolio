@@ -1,35 +1,39 @@
 {
   "name": "itsHimReaper",
-  "description": "Immersive Roblox environments, worlds, and development by Reaper.",
-  "bio": "I’m a Roblox developer who loves turning a blank baseplate into somewhere worth spending time. From early blockout to the last lighting pass, I care about how every part of a world feels to explore.",
+  "description": "Custom Roblox environment design by Reaper, specializing in architectural builds, terrain, hubs, and lighting composition.",
+  "bio": "I design and build Roblox environments from initial layout through final lighting. My work prioritizes clear player flow, cohesive architecture, and considered atmosphere, with each space tailored to the experience it supports.",
   "email": "",
   "socials": [
     {
-      "label": "My discord link",
+      "label": "Discord",
       "url": "https://discord.com/channels/@me/1270821107825639444",
       "icon": "discord"
     }
   ],
   "projectDetails": {
     "Images/FNaF build.png": {
-      "title": "FNaF build",
-      "description": "One of my own projects."
+      "title": "FNaF Roleplay Environment",
+      "description": "A themed environment created for a Five Nights at Freddy’s roleplay experience."
     },
     "Images/Elevator.png": {
       "title": "Elevator",
-      "description": "Elevator for a game."
+      "description": "An elevator environment designed for an in-game transition."
+    },
+    "Images/Lowpolytrack.png": {
+      "title": "Low-Poly Stud Track",
+      "description": "A stylized stud-themed racing environment developed for a Roblox game."
     },
     "Images/RoPoint Lab.png": {
       "title": "RoPoint Lab",
-      "description": "The lobby for RoPoint."
+      "description": "A central lobby environment developed for RoPoint."
     },
     "Images/FFR main.png": {
-      "title": "My FFR game main room",
-      "description": "FFR (Freddy Fazbears roleplay)"
+      "title": "Freddy Fazbear’s Roleplay | Main Environment",
+      "description": "The main environment for Freddy Fazbear’s Roleplay (FFR)."
     },
     "Videos/Castle.mp4": {
       "title": "Metal Castle",
-      "description": "This was made within 2 weeks of development for a game"
+      "description": "A metal castle environment developed over a two-week production period."
     }
   }
 }
