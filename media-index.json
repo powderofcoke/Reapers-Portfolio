@@ -35,6 +35,12 @@
       "type": "video",
       "title": "Metal Castle",
       "description": "A metal castle environment developed over a two-week production period."
+    },
+    {
+      "path": "Videos/Simulator.mp4",
+      "type": "video",
+      "title": "Simulator",
+      "description": "A simulator environment developed for a Roblox game although not finished."
     }
   ],
   "gui": []
